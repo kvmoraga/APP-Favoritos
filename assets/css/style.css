@@ -1,0 +1,124 @@
+body {
+    font-family: Helvetica, Arial;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+    text-decoration: none;
+    list-style: none;
+}
+
+#content {
+    width: 80%;
+    min-height: 500px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ddd;
+    background-color: #eee;
+}
+
+header .title-subtitle {
+    float: left;
+}
+
+header {
+    padding: 35px;
+    background-color: #5aa;
+}
+
+header h1, header p {
+    margin: 0px;
+    margin-left: 15px;
+    color: white;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+#logo {
+    width: 60px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+#favoritos-list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.favorito-item {
+    list-style: none;
+    width: 30%;
+    border: 1px solid #ddd;
+    height: 120px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: gray;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.favorito-item h4 {
+    color: #444;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+
+.favorito-item .url {
+    margin: 0px;
+    margin-top: 2px;
+    padding: 0px;
+    height: 45px;
+    overflow: hidden;
+}
+
+
+.favorito-item .content-data {
+    float: left;
+    margin-left: 25px;
+}
+
+.btn {
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-color: #5f89af;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px #ddd;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #6d9ec9;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn-editar {
+    background-color: #6dc982;
+    border-color: #59ba6f;
+}
+
+.btn-eliminar {
+    background-color: #c75555;
+    border-color: #c44848;
+}
+
+.btn-default {
+    background-color: #e3ab33;
+    border-color: #eaa615;
+    color: white;
+    margin-left: 0px;
+}
+
+footer {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 12px;
+    color: gray;
+}

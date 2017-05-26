@@ -1,0 +1,4 @@
+applications:
+- name: favkvm
+  memory: 512M
+  host: favkvm
