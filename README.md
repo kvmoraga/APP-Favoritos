@@ -1,2 +1,3 @@
 # APP-Favoritos
-Web SPA favoritos en Angular2
+Ejercicio prácto del curso de Angular 2
+Aplicación web SPA para gestionar favoritos - En proceso
